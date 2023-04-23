@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>株式会社TECH</title>
+</head>
+<body>
+  <h1>株式会社TECH</h1>  
+  <li>
+    <ul>ホーム</ul>
+    <ul>企業情報</ul>
+    <ul>会社概要</ul>
+    <ul>よくある質問</ul>
+    <ul>お問い合わせ</ul>
+  </li>
+  <img src="img mv.png.zip" alt="" />
+  <p>最新のテクノロジーで<em>社会課題</em>を解決</p>
+  <h2>会社概要</h2>
+  <tr>
+    <th>会社名</th>
+    <td>株式会社TECH</td>
+    <th>代表者</th>
+    <td>山田　太郎</td>
+    <th>所在地</th>
+    <td>東京都渋谷区神宮前</td>
+    <th>設立</th>
+    <td>2019/07/17</td>
+    <th>従業員数</th>
+    <td>100人</td>
+    <th>資本金</th>
+    <td>1000万円</td>
+  </tr>
+  <h2>お問い合わせ</h2>
+  <form action="detail.html" method="get">
+    <label>会社名:<input type="text" name="text" /> </label>
+    <label>お名前:<input type="text" name="name" /> </label>
+    <label>メールアドレス:<input type="email" name="email" /> </label>
+    <label>お問い合わせ</label>
+    <textarea name="textarea" cols="30" rows="6"></textarea>
+    <label>お申し込み:<input type="submit" /></label>
+  </form>
+</body>
+</html>
